@@ -1,0 +1,12575 @@
+ Recherche en Profondeur d'abord : 
+Point de départ : A
+Point d'arrivée : A
+le point de depart et le point d'arrivée sont confondus
+Recherche en Profondeur d'abord : 
+Point de départ : A
+Point d'arrivée : G1
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+A
+B
+D
+Liste:
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+A
+B
+D
+D
+Liste:
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+A
+B
+D
+D
+D
+Liste:
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 37
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 20
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 11
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 11
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 9
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 0
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 32
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 20
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 30
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 0
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 20
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 0
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : S
+le point de depart et le point d'arrivée sont confondus
+Recherche en Profondeur d'abord : 
+Point de départ : G1
+Point d'arrivée : S
+le point de depart n'a pas de successeurs
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 20
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 10
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : S
+le point de depart et le point d'arrivée sont confondus
+Recherche en Profondeur d'abord : 
+Point de départ : G2
+Point d'arrivée : S
+le point de depart n'a pas de successeurs
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 0
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 20
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 0
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 0
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 41
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 10
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : S
+le point de depart et le point d'arrivée sont confondus
+Recherche en Profondeur d'abord : 
+Point de départ : G2
+Point d'arrivée : S
+le point de depart n'a pas de successeurs
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 26
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 16
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 15
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 6
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : S
+le point de depart et le point d'arrivée sont confondus
+Recherche en Profondeur d'abord : 
+Point de départ : G1
+Point d'arrivée : S
+le point de depart n'a pas de successeurs
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 20
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 10
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : D
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+But atteint 
+Chemin=SABD
+Temps d'éxecution en ms: 5
+Cout=33
+Parcours = SABD
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : D
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+But atteint 
+Chemin=SABD
+Temps d'éxecution en ms: 5
+Cout=13
+Parcours = SABD
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G2
+But atteint 
+Temps d'éxecution en ms: 37
+Chemin=SBCG2
+Parcours=SABBDCDCDG1G2
+Cout=25
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : D
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+But atteint 
+Temps d'éxecution en ms: 9
+Chemin=SBD
+Parcours=SABBD
+Cout=16
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 25
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : B
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+But atteint 
+Temps d'éxecution en ms: 2
+Chemin=SB
+Cout=10
+Parcours = SSAB
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 24
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : A
+Point d'arrivée : B
+Resultat du choix min:A ayant comme heuristique 18
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+A
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+But atteint 
+Temps d'éxecution en ms: 3
+Chemin=AB
+Parcours=AB
+Cout=3
+Recherche meilleur d'abord gloutonne : 
+Point de départ : A
+Point d'arrivée : B
+Resultat du choix min:A ayant comme heuristique 18
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+A
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+But atteint 
+Temps d'éxecution en ms: 2
+Chemin=AB
+Parcours=AB
+Cout=3
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Resultat du choix min:C ayant comme heuristique 5
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Resultat du choix min:G1 ayant comme heuristique 0
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 23
+Chemin=SBCG1
+Parcours=SBDCG1
+Cout=26
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 20
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G2
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Temps d'éxecution en ms: 10
+Chemin=SABCG2
+Parcours=SABDCG2
+Cout=22
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G2
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Temps d'éxecution en ms: 24
+Chemin=SABCG2
+Parcours=SABDCG2
+Cout=22
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 32
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+But atteint 
+Chemin=SABCG1
+Temps d'éxecution en ms: 0
+Cout=23
+Parcours = SABDCG1
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+But atteint 
+Chemin=SABCG1
+Temps d'éxecution en ms: 16
+Cout=23
+Parcours = SABDCG1
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 15
+Chemin=SBCG1
+Parcours=SABBDCDCG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 33
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 16 du sommet D
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 31
+Chemin=SABCG1
+Parcours=SABBDDCCG2G1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Resultat du choix min:C ayant comme heuristique 5
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Resultat du choix min:G1 ayant comme heuristique 0
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 0
+Chemin=SBCG1
+Parcours=SBDCG1
+Cout=26
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 15
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Profondeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en Largeur d'abord : 
+Point de départ : S
+Point d'arrivée : G1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Liste:
+S
+A
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+Liste:
+S
+A
+B
+D
+D
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Liste:
+S
+B
+D
+D
+D
+Etude du sommet G1
+But atteint 
+Temps d'éxecution en ms: 31
+Chemin=SBCG1
+Parcours=SABBDCDCDG1
+Cout=26
+Recherche en EPLI: 
+Point de départ : S
+Point d'arrivée : G1
+Niveau num : 0
+Etude du sommet S
+Frontiere vide
+Niveau num : 1
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 2
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Niveau num : 3
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Liste:
+S
+B
+Etude du sommet C
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Liste:
+S
+B
+C
+Etude du sommet D
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+G1
+Liste:
+S
+B
+C
+G2
+But atteint 
+Temps d'éxecution en ms: 21
+Chemin=SBCG1
+Cout=26
+Parcours = SSABSABBDCSABDCBDDCG1
+Recherche en cout uniforme: 
+Point de départ : S
+Point d'arrivée : G1
+Cout minimal est 0 du sommet S
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+Cout : 4
+Liste:
+S
+B
+Cout : 10
+Cout minimal est 4 du sommet A
+Etude du sommet A
+Liste des successeurs :
+B
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+Cout : 7
+Cout minimal est 7 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+Cout : 10
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Cout minimal est 10 du sommet B
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+Cout : 13
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Cout minimal est 13 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+D
+Cout : 16
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Cout minimal est 16 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+C
+Cout : 17
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Cout minimal est 17 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+C
+Cout : 20
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Cout minimal est 20 du sommet C
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+Dans ce stade la frontiere contient :
+Liste:
+S
+A
+B
+D
+D
+Cout : 23
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+A
+B
+C
+G2
+Cout : 22
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Cout minimal est 22 du sommet G2
+Etude du sommet G2
+L'element 1 de la frontiere n'a pas de successeur donc on le supprime et on passe au suivant
+Cout minimal est 23 du sommet D
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la frontiere contient :
+Liste:
+S
+B
+D
+D
+Cout : 26
+Liste:
+S
+A
+B
+C
+G1
+Cout : 23
+Liste:
+S
+B
+C
+G1
+Cout : 26
+Liste:
+S
+B
+C
+G2
+Cout : 25
+Liste:
+S
+A
+B
+D
+D
+D
+Cout : 33
+Cout minimal est 23 du sommet G1
+But atteint 
+Temps d'éxecution en ms: 19
+Chemin=SABCG1
+Parcours=SABBDDCCG2DG1
+Cout=23
+Recherche meilleur d'abord gloutonne : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme heuristique 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Resultat du choix min:B ayant comme heuristique 15
+Etude du sommet B
+Liste des successeurs :
+D
+C
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+D
+Liste:
+S
+B
+C
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+C
+Liste:
+S
+B
+D
+D
+D
+Resultat du choix min:D ayant comme heuristique 4
+Etude du sommet D
+Liste des successeurs :
+D
+Boucle infinie ==> pas de solution
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : G1
+Resultat du choix min:S ayant comme cout 21
+Etude du sommet S
+Liste des successeurs :
+A
+B
+L'element A n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de A a la liste des ouverts avec un cout egal a 22
+L'element B n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de B a la liste des ouverts avec un cout egal a 25
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+Liste:
+S
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Resultat du choix min:A ayant comme cout 22
+Etude du sommet A
+Liste des successeurs :
+B
+Suppression de l'element B de la liste num 0
+l'ajout de B a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Resultat du choix min:B ayant comme cout 22
+Etude du sommet B
+Liste des successeurs :
+D
+C
+L'element D n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de D a la liste des ouverts avec un cout egal a 17
+L'element C n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de C a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Resultat du choix min:D ayant comme cout 17
+Etude du sommet D
+Liste des successeurs :
+D
+on conserve l'ancien noeud sans ajout du nouveau !
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Resultat du choix min:C ayant comme cout 22
+Etude du sommet C
+Liste des successeurs :
+G1
+G2
+L'element G1 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G1 a la liste des ouverts avec un cout egal a 23
+L'element G2 n'existe pas ni dans la luste des ouverts ni dans la liste des fermés dans on l'ajoute dans nOuvert!
+l'ajout de G2 a la liste des ouverts avec un cout egal a 22
+Dans ce stade la liste des neouds ouverts contient :
+Liste:
+S
+A
+B
+C
+G1
+Liste:
+S
+A
+B
+C
+G2
+Dans ce stade la liste des noeuds fermes contient :
+Liste:
+S
+Liste:
+S
+A
+Liste:
+S
+A
+B
+Liste:
+S
+A
+B
+D
+Liste:
+S
+A
+B
+C
+Resultat du choix min:G2 ayant comme cout 22
+Etude du sommet G2
+Cet element  n'a pas de successeur donc on le supprime et on passe au suivant
+Resultat du choix min:G1 ayant comme cout 23
+Temps d'éxecution en ms: 25
+Chemin=SABCG1
+Parcours=SABDCG2G1
+Cout=23
+Recherche en A* : 
+Point de départ : S
+Point d'arrivée : S
+le point de depart et le point d'arrivée sont confondus
+Recherche en A* : 
+Point de départ : G1
+Point d'arrivée : S
+le point de depart n'a pas de successeurs
